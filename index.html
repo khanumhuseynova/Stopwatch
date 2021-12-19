@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main_cont">
+        <h6 class="heading">STOPWATCH</h6>
+
+        <p class="second">--:--</p>
+
+        <div class="buttons">
+            <p class="start"><img src="./img/42488603-start-button-on-isolate-white-background.webp" class="img"></p>
+            <p class="reset"><img src="./img/reset.jpg" class="img"></p>
+            <p class="stop"><img src="./img/end.webp" class="img"></p>
+            <p class="lap"><img src="./img/lap.jpg" class="img" id="lap"></p>
+            <!-- <span class="lapValue"></span> -->
+        </div>
+
+        <ul class="list-group overflow-auto pr-2" id="lapValue">
+            <!-- <li class="list-group-item h2 rounded-pill bg-blue-dark text-light font-weight-light">
+                1. 00:00
+            </li> -->
+        </ul>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
